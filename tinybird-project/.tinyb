@@ -1,0 +1,14 @@
+{
+    "host": "https://api.us-east.aws.tinybird.co",
+    "id": "55065f18-2817-4ee8-979e-3d14f0df44bd",
+    "name": "glenride2",
+    "scope": "user",
+    "token": "p.eyJ1IjogIjU1MDY1ZjE4LTI4MTctNGVlOC05NzllLTNkMTRmMGRmNDRiZCIsICJpZCI6ICI4ZTMwNDhjMC00YzJlLTQ0YjUtOTg2MS1lZWQ4YTllMDEyNmUiLCAiaG9zdCI6ICJ1cy1lYXN0LWF3cyJ9.G6addoC27acQpEFmX37or3ReTV9stpTqI0QrWgTD-v8",
+    "tokens": {
+        "https://api.us-east.aws.tinybird.co": "p.eyJ1IjogIjU1MDY1ZjE4LTI4MTctNGVlOC05NzllLTNkMTRmMGRmNDRiZCIsICJpZCI6ICI4ZTMwNDhjMC00YzJlLTQ0YjUtOTg2MS1lZWQ4YTllMDEyNmUiLCAiaG9zdCI6ICJ1cy1lYXN0LWF3cyJ9.G6addoC27acQpEFmX37or3ReTV9stpTqI0QrWgTD-v8"
+    },
+    "user_email": "dvaughnhouse@gmail.com",
+    "user_id": "fe7b9502-50c4-4ed4-a23f-edf69c55215f",
+    "user_token": "p.eyJ1IjogImZlN2I5NTAyLTUwYzQtNGVkNC1hMjNmLWVkZjY5YzU1MjE1ZiIsICJpZCI6ICI4NGZlOTc3YS05MjJlLTRhZmYtODE1YS1mMDg1ZjY5YTAxNzIiLCAiaG9zdCI6ICJ1cy1lYXN0LWF3cyJ9.r3YicvObhkrLAho8GRdJ8QiN-M6ry7pxCZokmoomNk8",
+    "version": "5.0.2"
+}

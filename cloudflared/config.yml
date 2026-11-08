@@ -1,0 +1,8 @@
+ingress:
+  - hostname: blog.dvaughnhouse.com
+    service: http://127.0.0.1:2368
+  - hostname: grandcentral.dvaughnhouse.com
+    service: http://127.0.0.1:8001
+  - hostname: ideas.dvaughnhouse.com
+    service: http://127.0.0.1:8091
+  - service: http_status:404

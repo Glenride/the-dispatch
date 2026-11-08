@@ -1,0 +1,24 @@
+# Minimal send-only Postfix relay for Ghost (The Dispatch).
+# Accepts mail from the Docker networks, delivers directly to recipient MX.
+# Outgoing mail is DKIM-signed via the OpenDKIM milter (selector dispatch).
+# No auth, no local delivery, no smarthost. Logs to container stdout.
+myhostname = blog.dvaughnhouse.com
+mydomain = dvaughnhouse.com
+myorigin = $mydomain
+mydestination =
+mynetworks = 127.0.0.0/8, 172.23.0.0/16, 172.17.0.0/16
+inet_interfaces = all
+inet_protocols = ipv4
+relayhost =
+smtp_tls_security_level = may
+smtpd_tls_security_level = none
+smtpd_banner = $myhostname ESMTP
+biff = no
+append_dot_mydomain = no
+readme_directory = no
+compatibility_level = 3.6
+maillog_file = /dev/stdout
+smtpd_milters = inet:127.0.0.1:8891
+non_smtpd_milters = inet:127.0.0.1:8891
+milter_default_action = tempfail
+milter_protocol = 6
